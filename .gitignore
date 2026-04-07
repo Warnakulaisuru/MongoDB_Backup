@@ -1,0 +1,54 @@
+# 🔐 Environment & secrets
+.env
+.env.*
+config/*.env
+config/secrets.py
+
+# 🐍 Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Virtual environments
+venv/
+.env_venv/
+.venv/
+
+# 📝 Logs
+logs/
+*.log
+
+# 💾 Backup files (VERY IMPORTANT)
+*.gz
+*.archive
+*.bak
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
+
+# 🧪 Testing / temp files
+*.tmp
+*.temp
+*.swp
+
+# 🧰 IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 📊 Coverage / reports
+htmlcov/
+.coverage
+coverage.xml
+
+# 🚀 Build / dist
+dist/
+build/
+*.egg-info/
+
+# 🔄 Misc
+*.pid
+*.lock
